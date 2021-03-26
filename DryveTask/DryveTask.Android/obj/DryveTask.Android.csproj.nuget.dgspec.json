@@ -37,6 +37,14 @@
       "frameworks": {
         "monoandroid11.0": {
           "dependencies": {
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[8.0.0.1909, )"
+            },
+            "Prism.Forms": {
+              "target": "Package",
+              "version": "[8.0.0.1909, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1, )"
@@ -89,6 +97,14 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[8.0.0.1909, )"
+            },
+            "Prism.Forms": {
+              "target": "Package",
+              "version": "[8.0.0.1909, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

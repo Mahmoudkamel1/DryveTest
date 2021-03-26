@@ -1,6 +1,44 @@
 ﻿<Properties StartupConfiguration="{6D431088-4856-42A2-BEE9-96133D9C8900}|Default">
-  <MonoDevelop.Ide.ItemProperties.DryveTask.Android FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.DryveTask.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.DryveTask FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DryveTask.iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="DryveTask/Views/MainPage.xaml" Line="3" Column="68" />
+      <File FileName="DryveTask/Views/MainPage.xaml.cs" Line="10" Column="1" />
+      <File FileName="DryveTask/App.xaml.cs" Line="50" Column="68" />
+      <File FileName="DryveTask.Android/MainActivity.cs" Line="21" Column="20" />
+      <File FileName="DryveTask/App.xaml" Line="9" Column="25" />
+      <File FileName="DryveTask/Helpers/Routes.cs" Line="7" Column="1" />
+      <File FileName="DryveTask.iOS/AppDelegate.cs" Line="26" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DryveTask" expanded="True">
+            <Node name="DryveTask" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Bases" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="MainPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="DryveTask.Android" expanded="True" />
+            <Node name="DryveTask.iOS" expanded="True">
+              <Node name="AppDelegate.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DryveTask.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

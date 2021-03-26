@@ -1,10 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "nMXfARiVkiA+azN7bSlBkkdMDGRCB93hpPiZPeIPe5GTsPMXwu5fY66PVlyslptWjgyB9XCe5YfSkPEEqGfinA==",
+  "dgSpecHash": "h8ALrtAcF9EoTl7GcyLZsAqwitqp8FFA7vVo/XnEoDi/gbxFlPhqPnXBdnNI7vqU/HSujNBJ2s26I5A3Lv9bCQ==",
   "success": true,
   "projectFilePath": "/Users/macbook/Projects/DryveTest/DryveTest/DryveTask/DryveTask.iOS/DryveTask.iOS.csproj",
   "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/dryioc.dll/4.5.0/dryioc.dll.4.5.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/prism.core/8.0.0.1909/prism.core.8.0.0.1909.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/prism.dryioc.forms/8.0.0.1909/prism.dryioc.forms.8.0.0.1909.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/prism.forms/8.0.0.1909/prism.forms.8.0.0.1909.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/system.reflection.emit.lightweight/4.3.0/system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],

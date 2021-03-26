@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Prism;
+using Prism.Ioc;
 using UIKit;
 
 namespace DryveTask.iOS
@@ -23,9 +25,17 @@ namespace DryveTask.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+            LoadApplication(new App(new iOSInitializer()));
 
             return base.FinishedLaunching(app, options);
         }
+    }
+    sealed class iOSInitializer : IPlatformInitializer
+    {
+        #region IPlatformInitializer Members
+        public void RegisterTypes(IContainerRegistry containerRegistry)
+        {
+        }
+        #endregion
     }
 }

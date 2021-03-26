@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace DryveTask
+namespace DryveTask.Views
 {
     public partial class MainPage : ContentPage
     {

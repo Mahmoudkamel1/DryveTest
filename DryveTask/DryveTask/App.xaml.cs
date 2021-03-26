@@ -1,18 +1,24 @@
-﻿using System;
+﻿using DryIoc;
+using DryveTask.Helpers;
+using DryveTask.ViewModels;
+using DryveTask.Views;
+using Prism;
+using Prism.DryIoc;
+using Prism.Ioc;
+using Prism.Mvvm;
+using Xamarin.Essentials;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+using Device = Xamarin.Forms.Device;
+using Page = Xamarin.Forms.Page;
 
 namespace DryveTask
 {
-    public partial class App : Application
+    public partial class App : PrismApplication
     {
-        public App()
+        public App(IPlatformInitializer initializer = null) : base(initializer)
         {
-            InitializeComponent();
 
-            MainPage = new MainPage();
         }
-
         protected override void OnStart()
         {
         }
@@ -24,5 +30,25 @@ namespace DryveTask
         protected override void OnResume()
         {
         }
+
+        protected override void RegisterTypes(IContainerRegistry containerRegistry)
+        {
+            // Pages
+
+            containerRegistry.RegisterForNavigation<MainPage>(Routes.MainPageStringKey);
+
+            // Register ViewModels
+            ViewModelLocationProvider.Register<MainPage>(() => Container.Resolve<MainPageViewModel>());
+
+            // Behaviours
+
+        }
+
+        protected override void OnInitialized()
+        {
+            InitializeComponent();
+            this.NavigationService.NavigateAsync(string.Format("{0}", Routes.MainPageStringKey));
+        }
+
     }
 }
