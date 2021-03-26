@@ -1,0 +1,6 @@
+﻿<Properties StartupConfiguration="{6D431088-4856-42A2-BEE9-96133D9C8900}|Default">
+  <MonoDevelop.Ide.ItemProperties.DryveTask.Android FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DryveTask.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DryveTask FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>

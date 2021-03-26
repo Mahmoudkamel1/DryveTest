@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nMXfARiVkiA+azN7bSlBkkdMDGRCB93hpPiZPeIPe5GTsPMXwu5fY66PVlyslptWjgyB9XCe5YfSkPEEqGfinA==",
+  "success": true,
+  "projectFilePath": "/Users/macbook/Projects/DryveTest/DryveTest/DryveTask/DryveTask.iOS/DryveTask.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
