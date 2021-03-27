@@ -5,5 +5,7 @@ namespace DryveTask.Helpers
     {
         public static string MainPageStringKey = "MainPageStringKey";
 
+        public static string ListPageStringKey = "ListPageStringKey";
+
     }
 }

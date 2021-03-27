@@ -1,7 +1,9 @@
 ﻿using DryIoc;
 using DryveTask.Helpers;
+using DryveTask.services.Interfaces;
 using DryveTask.ViewModels;
 using DryveTask.Views;
+using FlickrList.services.implementations;
 using Prism;
 using Prism.DryIoc;
 using Prism.Ioc;
@@ -21,33 +23,37 @@ namespace DryveTask
         }
         protected override void OnStart()
         {
+            base.OnStart();
         }
 
         protected override void OnSleep()
         {
+            base.OnSleep();
         }
 
         protected override void OnResume()
         {
+            base.OnResume();
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             // Pages
+            containerRegistry.RegisterForNavigation<NavigationPage>("Navigation"); // required by PRISM
+            containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>(Routes.MainPageStringKey);
+            containerRegistry.RegisterForNavigation<ListPage, MainPageViewModel>(Routes.ListPageStringKey);
 
-            containerRegistry.RegisterForNavigation<MainPage>(Routes.MainPageStringKey);
+            // Services
 
-            // Register ViewModels
-            ViewModelLocationProvider.Register<MainPage>(() => Container.Resolve<MainPageViewModel>());
-
-            // Behaviours
+            containerRegistry.Register<IFlickrServices, FlickrServices>();
 
         }
 
-        protected override void OnInitialized()
+        protected override async void OnInitialized()
         {
-            InitializeComponent();
-            this.NavigationService.NavigateAsync(string.Format("{0}", Routes.MainPageStringKey));
+            this.InitializeComponent();
+
+            await this.NavigationService.NavigateAsync($"{Routes.ListPageStringKey}");
         }
 
     }
