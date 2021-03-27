@@ -26,5 +26,6 @@
     <Folder Include="Services\Implemenations\" />
     <Folder Include="Helpers\" />
     <Folder Include="Bases\" />
+    <Folder Include="Controls\" />
   </ItemGroup>
 </Project>

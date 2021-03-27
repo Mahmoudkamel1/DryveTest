@@ -40,8 +40,7 @@ namespace DryveTask
         {
             // Pages
             containerRegistry.RegisterForNavigation<NavigationPage>("Navigation"); // required by PRISM
-            containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>(Routes.MainPageStringKey);
-            containerRegistry.RegisterForNavigation<ListPage, MainPageViewModel>(Routes.ListPageStringKey);
+            containerRegistry.RegisterForNavigation<ListPage, ListPageViewModel>(Routes.ListPageStringKey);
 
             // Services
 

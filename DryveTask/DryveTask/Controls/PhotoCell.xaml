@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Grid
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="Black"
+    HorizontalOptions="FillAndExpand"
+    VerticalOptions="FillAndExpand"
+    x:Class="DryveTask.Controls.PhotoCell">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="100" />
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="100"/>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="50" />
+        <RowDefinition Height="250"/>
+    </Grid.RowDefinitions>
+    <Image Grid.Row="0"
+           Grid.RowSpan="2"
+           Grid.Column="0"
+           VerticalOptions="FillAndExpand"
+           HorizontalOptions="FillAndExpand"
+           Aspect="AspectFill"
+           Source="{Binding imaageUrl}"/>
+    <Label Grid.Row="0"
+           Grid.Column="1"
+           Grid.RowSpan="2"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="CenterAndExpand"
+           Text="{Binding Title}"
+           TextColor="White"/>
+
+    <Label Grid.Row="0"
+           Grid.Column="2"
+           Grid.RowSpan="2"
+           VerticalOptions="CenterAndExpand"
+           HorizontalOptions="End"
+           Text="Share"
+           TextColor="White">
+        <!-- Here should add Logic to share  -->
+    </Label>
+</Grid>

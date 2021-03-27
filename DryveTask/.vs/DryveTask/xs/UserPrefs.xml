@@ -1,41 +1,45 @@
-﻿<Properties StartupConfiguration="{43187EA1-781D-48BC-93A1-F6088A7F0B89}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DryveTask/Views/MainPage.xaml">
+﻿<Properties StartupConfiguration="{6D431088-4856-42A2-BEE9-96133D9C8900}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DryveTask.Android/MainActivity.cs">
     <Files>
-      <File FileName="DryveTask/Views/MainPage.xaml" Line="52" Column="27" />
-      <File FileName="DryveTask/Views/ListPage.xaml" Line="8" Column="5" />
-      <File FileName="DryveTask/Helpers/Routes.cs" Line="8" Column="68" />
-      <File FileName="DryveTask/App.xaml.cs" Line="36" Column="29" />
-      <File FileName="DryveTask/Views/ListPage.xaml.cs" Line="17" Column="1" />
-      <File FileName="DryveTask/Bases/BaseViewModel.cs" Line="105" Column="1" />
-      <File FileName="DryveTask.Android/MainActivity.cs" Line="1" Column="1" />
-      <File FileName="DryveTask.iOS/AppDelegate.cs" Line="28" Column="51" />
+      <File FileName="DryveTask/Views/ListPage.xaml" Line="16" Column="52" />
+      <File FileName="DryveTask/App.xaml.cs" Line="44" Column="1" />
+      <File FileName="DryveTask/Controls/PhotoCell.xaml" Line="40" Column="49" />
+      <File FileName="TaskTest/UnitTest1.cs" Line="22" Column="45" />
+      <File FileName="DryveTask.Android/MainActivity.cs" Line="22" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DryveTask" expanded="True" selected="True">
+          <Node name="DryveTask" expanded="True">
+            <Node name="DryveTask" expanded="True">
+              <Node name="Controls" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="ListPage.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="DryveTask.Android" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="MainActivity.cs" selected="True" />
+            </Node>
+            <Node name="DryveTask.iOS" expanded="True" />
             <Node name="TaskTest" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="DryveTask" expanded="True" selected="True" />
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.DryveTask.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.DryveTask.Android PreferredExecutionTarget="Android.Pixel_3a_API_29" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.TaskTest FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.DryveTask.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1897347F-71EA-4C3D-B7AC-FEE4ED495115" />
+  <MonoDevelop.Ide.ItemProperties.DryveTask.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5043D2B2-D3EF-4302-BBAC-DA59E0F0317F" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/macbook/Projects/DryveTest/DryveTest/DryveTask/DryveTask/Views/MainPage.xaml.cs" relfile="DryveTask/Views/MainPage.xaml.cs" line="15" column="1" />
-      <Breakpoint file="/Users/macbook/Projects/DryveTest/DryveTest/DryveTask/DryveTask/Views/ListPage.xaml.cs" relfile="DryveTask/Views/ListPage.xaml.cs" line="17" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

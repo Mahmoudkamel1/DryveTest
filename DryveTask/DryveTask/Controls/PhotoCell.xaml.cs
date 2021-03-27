@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
-namespace DryveTask.Views
+namespace DryveTask.Controls
 {
-    public partial class ListPage : ContentPage
+    public partial class PhotoCell : Grid
     {
-        public ListPage()
+        public PhotoCell()
         {
             InitializeComponent();
         }

@@ -9,7 +9,7 @@ using Prism.Navigation;
 
 namespace DryveTask.ViewModels
 {
-    public class MainPageViewModel : BaseViewModel
+    public class ListPageViewModel : BaseViewModel
     {
         #region Fields
         private List<Photo> _pictures;
@@ -39,7 +39,7 @@ namespace DryveTask.ViewModels
 
         #region ConstructorDestructor
 
-        public MainPageViewModel(INavigationService navigationService, IFlickrServices flickerServices)
+        public ListPageViewModel(INavigationService navigationService, IFlickrServices flickerServices)
         : base(navigationService)
         {
             _flickerServices = flickerServices;

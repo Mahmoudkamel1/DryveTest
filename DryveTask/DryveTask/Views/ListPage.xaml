@@ -3,48 +3,24 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+    xmlns:controls="clr-namespace:DryveTask.Controls"
     prism:ViewModelLocator.AutowireViewModel="True"
     x:Class="DryveTask.Views.ListPage">
     <ContentPage.Content>
-        
-            <ListView HorizontalOptions="FillAndExpand"
+
+        <ListView HorizontalOptions="FillAndExpand"
                   VerticalOptions="FillAndExpand"
                   VerticalScrollBarVisibility="Never"
-                      HasUnevenRows="True"
+                  HasUnevenRows="True"
                   BackgroundColor="WhiteSmoke"
                   ItemsSource="{Binding Pictures}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <Grid BackgroundColor="Black"
-                          HorizontalOptions="FillAndExpand"
-                          VerticalOptions="FillAndExpand">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="100" />
-                                    <ColumnDefinition Width="*"/>
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="50" />
-                                    <RowDefinition Height="250"/>
-                                </Grid.RowDefinitions>
-                                <Image Grid.Row="0"
-                               Grid.RowSpan="2"
-                               Grid.Column="0"
-                               VerticalOptions="FillAndExpand"
-                               HorizontalOptions="FillAndExpand"
-                               Aspect="AspectFill"
-                               Source="{Binding imaageUrl}"/>
-                                <Label Grid.Row="0"
-                               Grid.Column="1"
-                                       Grid.RowSpan="2"
-                                       VerticalOptions="CenterAndExpand"
-                               Text="{Binding Title}"
-                               TextColor="White"/>
-
-                            </Grid>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+            <ListView.ItemTemplate>
+                <DataTemplate >
+                    <ViewCell>
+                        <controls:PhotoCell/>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </ContentPage.Content>
 </ContentPage>
