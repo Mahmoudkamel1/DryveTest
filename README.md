@@ -5,8 +5,8 @@
 - In listview cells there's share label.
 
 Required: 
-
+- Create another branch and follow naming convention "{firstname}_test".
 - We need to add share functionality to share flicker photo Title with other apps like WhatsApp & Facebook (Tips: Using Dependency service).
 - Excpected behaviour: when user clicked share should view popup to confirm sharing: popup have two options (Share & cancel).
 - Code should follow prism framework.
-- writing Unit Test methods is plus. 
+- Writing Unit Test methods is plus. 
