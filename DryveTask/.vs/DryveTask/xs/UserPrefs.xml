@@ -1,32 +1,25 @@
 ﻿<Properties StartupConfiguration="{6D431088-4856-42A2-BEE9-96133D9C8900}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DryveTask.Android/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DryveTask/Models/Photo.cs">
     <Files>
       <File FileName="DryveTask/Views/ListPage.xaml" Line="16" Column="52" />
-      <File FileName="DryveTask/App.xaml.cs" Line="44" Column="1" />
-      <File FileName="DryveTask/Controls/PhotoCell.xaml" Line="40" Column="49" />
-      <File FileName="TaskTest/UnitTest1.cs" Line="22" Column="45" />
-      <File FileName="DryveTask.Android/MainActivity.cs" Line="22" Column="10" />
+      <File FileName="DryveTask/App.xaml.cs" />
+      <File FileName="DryveTask/Controls/PhotoCell.xaml" />
+      <File FileName="DryveTask.Android/MainActivity.cs" />
+      <File FileName="DryveTask/ViewModels/ListPageViewModel.cs" />
+      <File FileName="DryveTask/Models/Photo.cs" Line="11" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DryveTask" expanded="True">
+          <Node name="DryveTask" expanded="True" selected="True">
             <Node name="DryveTask" expanded="True">
-              <Node name="Controls" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="ListPage.xaml" expanded="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
             </Node>
-            <Node name="DryveTask.Android" expanded="True">
-              <Node name="Properties" expanded="True" />
-              <Node name="MainActivity.cs" selected="True" />
-            </Node>
-            <Node name="DryveTask.iOS" expanded="True" />
-            <Node name="TaskTest" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="DryveTask.Android" expanded="True" />
+            <Node name="TaskTest" expanded="True" />
           </Node>
         </State>
       </Pad>
